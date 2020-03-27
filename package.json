@@ -1,0 +1,26 @@
+{
+  "name": "nightclub",
+  "version": "1.0.0",
+  "description": "A project for my class",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "lite-server": "^2.5.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucassnowfall/Nightclub.git"
+  },
+  "author": "Lucas Snowfall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucassnowfall/Nightclub/issues"
+  },
+  "homepage": "https://github.com/lucassnowfall/Nightclub#readme"
+}

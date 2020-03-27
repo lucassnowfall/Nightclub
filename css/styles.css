@@ -1,0 +1,51 @@
+/* font-family: 'Pacifico', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Source Sans Pro', sans-serif; */
+body {
+    background-color: tomato;
+}
+
+
+.header1 {
+
+    color: whitesmoke;
+    font-family: 'Pacifico', cursive;
+    font-size: 10vw;
+    padding-top: 15vw;
+}
+
+.header2 {
+    color: purple;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4vw;
+    font-weight: bold;
+}
+
+.header3 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 5vw;
+    font-weight: 500;
+    margin-top: 4vw;
+    margin-bottom: 1vw;
+
+}
+
+.face {
+
+    background-image: url("/images/neonchairs.jpg");
+    background-size: cover;
+    height: 60vw;
+}
+
+
+.nav-item {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+
+
+.featured {
+    z-index: 1;
+}

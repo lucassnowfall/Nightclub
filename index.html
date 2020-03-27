@@ -1,0 +1,123 @@
+<!-- DEVELOPER NOTES: 
+03/24 css, font awesome, bootstrap, google fonts and lite server all running.-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- CSS STYLES & BOOTSTRAP-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- FONTE AWESOME -->
+    <script src="https://kit.fontawesome.com/c41ab2e0e0.js" crossorigin="anonymous"></script>
+
+    <!-- GOOGLE FONTS -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@100&family=Source+Sans+Pro:wght@200&display=swap"
+        rel="stylesheet">
+
+    <title>Ultralounge Nightclub</title>
+</head>
+
+<body>
+
+    <div class="container-fluid face">
+        <!-- NAVBAR HERE -->
+        <nav>
+            <div class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="#">Ultralounge</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Featured</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Reservations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <!-- HEADERS -->
+        <div class="headings text-center">
+            <h1 class="header1">Ultralounge</h1>
+            <h2 class="header2">Nightclub</h2>
+        </div>
+
+
+
+    </div>
+
+
+    <div class="container-fluid featured text-center">
+
+        <h2 class="header3">FEATURED</h2>
+
+        <!-- CAROUSEL -->
+        <div class="container">
+            <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-50 mx-auto" src="./images/featured/singer1.png" alt="First slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Alex Goulag</h5>
+                            <p>Friday 3 - April 2020</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-50 mx-auto" src="./images/featured/singer4.png" alt="Second slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Shay Davenport</h5>
+                            <p>Coming soon for the summer</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-50 mx-auto" src="./images/featured/singer3.png" alt="Third slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Jhoseph Logan</h5>
+                            <p>Sunday 11 - April 2020</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+    <!-- SCRIPS THAT DOES THE MAGIC -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
