@@ -5,6 +5,10 @@ body {
     background-color: black;
 }
 
+.aboutBody {
+    background-image: linear-gradient(to bottom, #620011, #732606, #7c4400, #7e6300, #778106);
+}
+
 .brand {
     color: whitesmoke;
     font-family: 'Pacifico',
@@ -12,7 +16,6 @@ body {
 }
 
 .header1 {
-
 
     font-size: 80px;
     color: #fff;
@@ -28,6 +31,7 @@ body {
         cursive;
     font-size: 10vw;
     padding-top: 15vw;
+
 }
 
 .header2 {
@@ -53,13 +57,23 @@ body {
 
 
 .face {
-
     background-image: url("/images/neonchairs.jpg");
     background-size: cover;
     height: 60vw;
-    width: 100vw;
+    width: auto;
 }
 
+.face2 {
+    background-image: url("/images/face2.jpg");
+    background-size: cover;
+    height: 60vw;
+    width: auto;
+    background-repeat: no-repeat;
+}
+
+.nav-link {
+    color: white;
+}
 
 .nav-item {
     padding-left: 3rem;
@@ -70,37 +84,47 @@ body {
 
 .featured {
     z-index: 1;
-    height: 100vw;
-    width: 100vw;
+
 }
 
-.carousel-item {
-    width: 100vw;
-}
-
-
-.about {
-    color: whitesmoke;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 2rem;
-    font-weight: 600;
-    margin-top: 8vw;
-    padding-right: 1rem;
+.slides {
     text-align: center;
-    width: 100%;
-
+    /* width: 45vw; */
 }
+
+.weOwn {
+    width: 40vw;
+    text-align: center;
+}
+
+
 
 .about2 {
     color: whitesmoke;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 2rem;
     font-weight: 600;
-    padding-right: 1rem;
+    padding-right: 1vw;
+    margin-top: 13vw;
     text-align: center;
     width: 100%;
 
 }
+
+
+
+.about1 {
+    color: whitesmoke;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 3.5vw;
+    font-weight: 600;
+    padding-right: 1vw;
+    margin-top: 10vw;
+    text-align: center;
+    width: 100%;
+
+}
+
 
 .logo {
     margin-top: 8vw;
@@ -110,6 +134,7 @@ body {
 }
 
 .venue {
+
     text-align: center;
     border-radius: 2%;
 }
@@ -138,7 +163,7 @@ li {
 }
 
 .social {
-    font-size: 1.5rem;
+    font-size: 2.3vw;
     text-decoration: none;
     color: whitesmoke;
     font-family: 'Source Sans Pro', sans-serif;
@@ -153,8 +178,24 @@ li {
 
 
 .contactUs {
-    font-size: 1rem;
+    font-size: 1.5vw;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
     color: whitesmoke;
+}
+
+.aboutImg {
+    margin-top: 10vw;
+}
+
+.final {
+    color: whitesmoke;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2vw;
+    font-weight: 600;
+    padding-right: 1vw;
+    margin-top: 3vw;
+    margin-bottom: 8vw;
+    text-align: center;
+    width: auto;
 }
